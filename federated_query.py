@@ -132,7 +132,7 @@ def demo_federated_query():
         
         # Query 5: Demonstrate JMX catalog (simulating external data source)
         print("\n[6] Demonstrating JMX Catalog (simulating S3/Hive connector)...")
-        print("    Query: SELECT * FROM jmx.current.\"java.lang:type=runtime\"")
+        print("    Query: SELECT * FROM jmx.current.\"java.lang:type=Runtime\"")
         
         jmx_query = """
         SELECT node, name, uptime 
